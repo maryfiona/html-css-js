@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body style="padding: 0px; margin:0px">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">HAPPY NINJA</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Clothing</a></li>
+        <li><a href="#">Hoodies</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+<main style="margin-bottom: 8em">
+  <div class="container-fluid " style="background-image:url(https://www.packagingdigest.com/sites/packagingdigest.com/files/AdobeStock_279692163_Editorial_Use_Only-Beverage-FTR-new.jpg); ">
+  
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <div>
+        <img  id="replace" width="300" src="https://www.miningcadastre.gov.ng/wp-content/uploads/2013/06/hoodie_4_front-100x100.jpg" >
+      </div>
+      <div style="padding-top:7px;"  class="row">
+    <div class="col-md-3">
+      <img  onclick="firstOne()" src="https://vendeurenligne.fr/wp-content/uploads/2020/04/hoodie_4_back-600x600.jpg" width="70">
+    </div>
+    <div class="col-md-3">
+          <img onclick="secondOne()" src="https://www.miningcadastre.gov.ng/wp-content/uploads/2013/06/T_7_front.jpg" width="70">
+        </div>
+    <div class="col-md-3">
+      <img onclick="thirdOne()" src="https://vendeurenligne.fr/wp-content/uploads/2020/04/T_2_back-600x600.jpg" width="70">
+    </div>
+    <div class="col-md-3">
+      <img onclick="fourthOne()" src="https://vendeurenligne.fr/wp-content/uploads/2020/04/hoodie_6_front.jpg" width="70">
+    </div>
+      </div>
+      
+
+    </div>
+    <div class="col-md-9">
+      <div style="margin-left: 4em;">
+    <h3 >Happy Ninja</h3>
+    
+<section id="class">
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"> 
+  <a href="chrome.html"> (2 customer reviews)</a>
+</i>
+</section>
+
+
+<p style="color: green; margin-top: 3em;">$10.00-$12.00</p>
+
+  </div>
+  <p style="margin-left: 3em;">
+    pellentesque habitant morbi tristique senectus <br> et malesuada fames ac turpis egestas.<br>
+    Vestibulum tortor quam,feugiat vitae,ultricies eget, <br>tempor sit amet, ante. Donec eu libero sit amet quam<br> egestas semper.Aenean ultricies mi vitae est. Mauris<br> placerat eleifend leo.
+  </p>
+  <b style=" margin-left: 3em;">
+  color</b>
+
+    <select>
+       <button>
+      <option>
+        red
+      </option>
+      <option>
+           yellow
+      </option>
+      <option>
+         black
+      </option>
+      <option>
+        green
+      </option>
+      <option>
+        purple
+      </option>
+    </button>
+    </select>
+    <br>
+
+    <a style="margin-left: 3em;" href="chrome.html">clear selection</a>
+    <br>
+
+    <b style="color: green; position: relative;top: 3em; left: 3em;">$10.00</b>
+</div>
+
+
+<button style="width: 3em; position: relative;top: 3em;left: 4em; height: 2em;">
+<p id="demo">0</p>
+</button>
+<button style=" position: relative;top: 3em;left: 4em; background-color: purple;color: white;border: none; " onclick="counts()">Add to cart</button>
+  
+
+  <p style="position: relative;top: 5em; left: 23.5em;">SKU:N/A.categories:<a href="chrome.html">clothing  Hoodies</a></p>
+  </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h2 onclick="showDescription() " style="position: relative;top: 3em; cursor: pointer;">Description</h2>
+  </div>
+     <div class="col-md-6"><h2 onclick="showReview()" style="position: relative;top: 3em; right: 13em; cursor: pointer;">Review</h2>
+      </div>
+  </div>
+</div>
+<div id="changes">
+  <p id="review" style="position: relative;top: 7em;"><b>REVIEW</b> Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> Vestibulum tortor quam, feugiat vitae, ultricies eget,<br></p>
+  <p id="description" style="position: relative;top: 7em; display: none;"> <b>DESCRIPTION</b>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br> Vestibulum tortor quam, feugiat vitae, ultricies eget,<br> tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.<br> Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+</div>
+      </div>
+      <script>
+        function showDescription() {
+        document.getElementById('description').style.display = "block"
+        document.getElementById('review').style.display = "none"
+        }
+        function showReview() {
+        document.getElementById('review').style.display = "block"
+        document.getElementById('description').style.display = "none"
+        }
+      </script>
+<style>
+  .row{
+    margin-left: -20px;
+  }
+ 
+  
+</style>
+<script>
+
+  function firstOne() {
+   document.getElementById('replace').src="https://vendeurenligne.fr/wp-content/uploads/2020/04/hoodie_4_back-600x600.jpg"
+  }
+function secondOne() {
+  document.getElementById('replace').src="https://www.miningcadastre.gov.ng/wp-content/uploads/2013/06/T_7_front.jpg"
+}
+  function thirdOne() {
+    document.getElementById('replace').src="https://vendeurenligne.fr/wp-content/uploads/2020/04/T_2_back-600x600.jpg" 
+  }
+  function fourthOne() {
+    document.getElementById('replace').src="https://vendeurenligne.fr/wp-content/uploads/2020/04/hoodie_6_front.jpg"
+  }
+  function counts() {
+  let fiona = document.getElementById('demo');
+  counters = 0;
+  counters = fiona.innerHTML ++;
+ } 
+ 
+
+  
+</script>
+
+</main>
+
+</body>
+</html>
